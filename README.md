@@ -31,7 +31,7 @@ If we are using this data to predict country based on region, population, and ar
 **Data Used**
 
 The Wikipedia [Category:Politicians by nationality](https://en.wikipedia.org/wiki/Category:Politicians_by_nationality) was crawled to generate a list of Wikipedia article pages about politicians from a wide range of countries. This data is in the GitHub as politicians_by_country_SEPT.2022.csv.
-The population data is available in CSV format as population_by_country_2022.csv from GitHub. This dataset is drawn from the world population data sheet published by the Population Reference Bureau.
+The population data is available in CSV format as population_by_country_2022.csv from GitHub. This dataset is drawn from the https://www.prb.org/international/indicator/population/table/ published by the Population Reference Bureau.
 
 **APIs Used**
 

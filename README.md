@@ -10,4 +10,5 @@ The countries with the highest and lowest proportion of high quality articles ab
 
 A ranking of geographic regions by articles-per-person and proportion of high quality articles.
 
+**Liscense MIT**
 

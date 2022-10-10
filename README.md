@@ -31,4 +31,22 @@ wp_countries-no_match.txt
 Consolidate the information country, region, population, article_title, revision_id, and article_quality into a single CSV file called:
 wp_politicians_by_country.csv
 
+**List of articles we were not able to gather sources**
+
+Unable to retrieve prediction for  Prince Ofosu Sefah
+
+Unable to retrieve prediction for  Harjit Kaur Talwandi
+
+Unable to retrieve prediction for  Abd al-Razzaq al-Hasani
+
+Unable to retrieve prediction for  Kang Sun-nam
+
+Unable to retrieve prediction for  Segun “Aeroland” Adewale
+
+Unable to retrieve prediction for  Nhlanhla “Lux” Dlamini
+
+**Known Issues**
+
+The population of several countries is listed at 0.0 million. Although the population of these countries are small, we know they are not 0.0 million. However, when performing the analysis, when dividing by population the articles per person ratio can be infinity for these incorrect population representations.
+
 

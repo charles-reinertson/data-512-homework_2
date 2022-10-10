@@ -2,13 +2,29 @@
 
 **Goal**
 
-The goal of this assignment is to explore the concept of bias in data using Wikipedia articles. This assignment considers articles on political figures from different countries. I combine a dataset of Wikipedia articles with a dataset of country populations, and use a machine learning service called ORES to estimate the quality of each article. I also analyze how the coverage of politicians on Wikipedia and the quality of articles about politicians varies among countries. My analysis consists of a series of tables that show:
+The goal of this assignment is to explore the concept of bias in data using Wikipedia articles. This assignment considers articles on political figures from different countries. I combine a dataset of Wikipedia articles with a dataset of country populations and use a machine learning service called ORES to estimate the quality of each article. I also analyze how the coverage of politicians on Wikipedia and the quality of articles about politicians varies among countries. My analysis consists of a series of tables that show...
 
 The countries with the greatest and least coverage of politicians on Wikipedia compared to their population.
 
-The countries with the highest and lowest proportion of high quality articles about politicians.
+The countries with the highest and lowest proportion of high-quality articles about politicians.
 
-A ranking of geographic regions by articles-per-person and proportion of high quality articles.
+A ranking of geographic regions by articles-per-person and proportion of high-quality articles.
+
+**Research Implications**
+
+The first thing I learned is that the per capita coverage rankings can be misleading as population size may have impacted the findings more than a normalizing technique should. Population size can sometimes be 0.0 million in our dataset which makes countries with that listed population at the top of the list of articles per capita. Small countries in general are at the top of the list of articles per capita for both only quality articles and all articles. Large countries, on the other hand, tend to be at the top of the list of lowest total articles per capita. The lowest total articles per capita list of quality articles includes some countries we know to have questionable journalism standards. It is also hard to believe the Wikipedia peer-reviewed articles are following the same standards from country to country which leads to bias in the data.
+
+1. What biases did you expect to find in the data (before you started working with it), and why?
+
+I expected to find that non-English speaking countries would have fewer peer-reviewed articles as Wikipedia was started as a Western knowledge-capturing website. I also believe that smaller countries may not have enough data to accurately depict the quality and quantity of their Wikipedia pages.
+
+2. Can you think of a realistic data science research situation where using these data (to train a model, perform a hypothesis-driven research, or make business decisions) might create biased or misleading results, due to the inherent gaps and limitations of the data?
+
+If we are using this data to predict the article quality of different article titles, we may have very problematic results. The features country and region create many biases and we may predict an article is of bad quality just because of the country or region of the article. That is extremely unfair to the writer of the article and a more holistic approach would be necessary for answering this type of question.
+
+3. Can you think of a realistic data science research situation where using these data (to train a model, perform a hypothesis-driven research, or make business decisions) might still be appropriate and useful, despite its inherent limitations and biases?
+
+If we are using this data to predict country based on region, population, and article title this may not be problematic. There is still some bias as people live in countries where their name is not common, but overall the affects of this bias would not cause damaging real-world effects.
 
 **Liscense MIT**
 

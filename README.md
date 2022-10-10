@@ -28,7 +28,7 @@ The population data is available in CSV format as population_by_country_2022.csv
 Identify all countries for which there are no matches and output a list of those countries, with each country on a separate line called:
 wp_countries-no_match.txt
 
-Consolidate the remaining data into a single CSV file called:
+Consolidate the information country, region, population, article_title, revision_id, and article_quality into a single CSV file called:
 wp_politicians_by_country.csv
 
 

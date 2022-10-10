@@ -23,5 +23,12 @@ The population data is available in CSV format as population_by_country_2022.csv
 
 [Info](https://www.mediawiki.org/wiki/API:Info) - ORES requires a specific revision ID of a specific article to be able to make a label prediction. You can use the API:Info request to get a range of metadata on an article, including the most current revision ID of the article page.
 
+**Files Created**
+
+Identify all countries for which there are no matches and output a list of those countries, with each country on a separate line called:
+wp_countries-no_match.txt
+
+Consolidate the remaining data into a single CSV file called:
+wp_politicians_by_country.csv
 
 
